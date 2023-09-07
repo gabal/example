@@ -1,0 +1,43 @@
+@value desktop from '../../../css/breakpoints.module.css';
+.navigation {
+    margin-bottom: 25px;
+}
+.header {
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.activity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+@media only screen and (desktop) {
+    .user {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .header {
+        flex-direction: unset;
+        margin-bottom: 20px;
+        text-align: left;
+        display: block;
+    }
+    .user>aside {
+        border-right: 1px solid var(--border-color);
+        padding-right: 30px;
+    }
+    .activity {
+        display: block;
+        flex-direction: row;
+ 
+    }
+}
+

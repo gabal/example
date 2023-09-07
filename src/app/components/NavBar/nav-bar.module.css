@@ -1,0 +1,17 @@
+.nav-bar {
+    background: var(--nav-bar-background);
+    padding: 30px var(--side-mobile);
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.nav-bar img {
+    width: 58px;
+}
+
+@media only screen and (min-width: var(--mobile-max-width)) {
+    .nav-bar  {
+      padding: 30px var(--side-padding) 100px;
+    }
+}

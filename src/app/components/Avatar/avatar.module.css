@@ -1,0 +1,28 @@
+@value desktop from '../../css/breakpoints.module.css';
+.avatar {
+    border-radius: 50%;
+    background: #ccc;
+}
+
+.avatar img {
+    display: block;
+    max-width: 100%;
+}
+
+.l {
+    width: 35px;
+    height: 35px;
+}
+
+.s {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+@media only screen and (desktop) {
+    .l {
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,33 @@
+.back-button {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   height: 25px;
+   font-weight: bold;
+   text-decoration: none;
+   color: var(--text-color)
+}
+
+.icon {
+    background: var(--primary-color);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    margin-right: 8px;
+}
+.icon img {
+    width: 100%;
+    height: 100%;
+    margin-left: -2px;
+}
+.back-button:hover{
+    color: var(--text-color-hover);
+}
+.back-button:hover .icon{
+    background: var(--primary-color-hover);
+};
+.back-button:hover img{
+    filter: invert(0%);
+}

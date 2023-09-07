@@ -1,0 +1,12 @@
+.repo-line-item {
+    display: block;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.description {
+    color: var(--secondary-text-color);
+    margin-top: 4px;
+}
+.repo-line-item:hover .description{
+    color: var(--nav-bar-background);
+}

@@ -1,0 +1,46 @@
+:root {
+  --primary-color: color(srgb 0.0373 0.7636 0.9779);
+  --background-color: #fafafa;
+  --border-color: #eaeaea;
+  --nav-bar-background: #fff;
+  --text-color: #000;
+  --secondary-text-color: #999;
+  --primary-color-hover: color(srgb 0.19 0.64 0.77);
+  --text-color-hover: color(srgb 0.19 0.64 0.77);
+  --text-dark-background-color-hover: #fff;
+  --highlighted-section: #ccc;
+  --side-padding: 65px;
+  --side-mobile: 30px;
+  --mobile-max-width: 600px;
+}
+body {
+  background: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+main {
+  padding: 30px var(--side-mobile) 100px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+@media only screen and (min-width: var(--mobile-max-width)) {
+  main {
+    padding: 30px var(--side-padding) 100px;
+  }
+}
